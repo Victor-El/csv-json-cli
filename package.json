@@ -1,0 +1,31 @@
+{
+  "name": "csv-json-cli",
+  "version": "0.0.1-alpha",
+  "description": "A command line utility for converting csv to/from json",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-el/csv-json-cli.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "cli",
+    "converter",
+    "csv2json",
+    "converter",
+    "csv",
+    "to",
+    "json",
+    "json-csv"
+  ],
+  "author": "Victor Elezua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-el/csv-json-cli/issues"
+  },
+  "homepage": "https://github.com/victor-el/csv-json-cli#readme"
+}
