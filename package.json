@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
+    "commander": "^6.2.0",
     "csv2jsonjs": "^1.0.1"
   }
 }
