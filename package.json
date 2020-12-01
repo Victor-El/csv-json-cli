@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/victor-el/csv-json-cli/issues"
   },
-  "homepage": "https://github.com/victor-el/csv-json-cli#readme"
+  "homepage": "https://github.com/victor-el/csv-json-cli#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "csv2jsonjs": "^1.0.1"
+  }
 }
