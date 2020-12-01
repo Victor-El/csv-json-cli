@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": {
+    "c2j": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/victor-el/csv-json-cli.git"
