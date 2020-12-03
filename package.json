@@ -1,5 +1,5 @@
 {
-  "name": "csv-json-cli",
+  "name": "@codeenzyme/csv-json-cli",
   "version": "0.0.1-alpha",
   "description": "A command line utility for converting csv to/from json",
   "main": "index.js",
