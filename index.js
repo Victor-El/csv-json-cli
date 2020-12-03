@@ -28,11 +28,18 @@ program
                 return;
             }
 
-            convertJFToCF(fileOrDir, comdObj.output);
+            convertJFToCF.convertJsonFileToCsvFile(fileOrDir, comdObj.output);
         }
 
+        // when -d flag is used to specify a directory of files
         if (comdObj.dir) {
             console.log("Dir");
+            if (!comdObj.output) {
+                logger.error("valid directory required");
+                return;
+            }
+
+            convertJFToCF.convertJsonDirToCsvDir(fileOrDir, comdObj.output);
         }
     });
 
