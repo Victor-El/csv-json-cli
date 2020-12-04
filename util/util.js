@@ -9,7 +9,7 @@ try {
 } catch (error) {
     logger.warn("package.json not available");
     packageFile = JSON.stringify({
-        version: "0.0.1-alpha"
+        version: "0.0.1-alpha02"
     });
 }
 
