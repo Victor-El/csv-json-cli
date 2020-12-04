@@ -8,7 +8,7 @@ try {
     packageFile = fs.readFileSync("./package.json", "utf-8");
 } catch (error) {
     packageFile = JSON.stringify({
-        version: "0.0.1-alpha02"
+        version: "0.0.1-alpha03"
     });
 }
 
