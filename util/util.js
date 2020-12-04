@@ -2,7 +2,16 @@ const fs = require('fs');
 
 const chalk = require('chalk');
 
-const packageFile = fs.readFileSync("./package.json", "utf-8");
+const packageFile = null;
+
+try {
+    packageFile = fs.readFileSync("./package.json", "utf-8");
+} catch (error) {
+    logger.warn("package.json not available");
+    packageFile = JSON.stringify({
+        version: "0.0.1-alpha"
+    });
+}
 
 const package = JSON.parse(packageFile);
 
