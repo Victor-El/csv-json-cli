@@ -2,13 +2,13 @@ const fs = require('fs');
 
 const chalk = require('chalk');
 
-const packageFile = null;
+var packageFile = null;
 
 try {
     packageFile = fs.readFileSync("./package.json", "utf-8");
 } catch (error) {
     packageFile = JSON.stringify({
-        version: "0.0.1-alpha03"
+        version: "0.0.1-alpha04"
     });
 }
 
